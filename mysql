@@ -1,0 +1,93 @@
+# SQL Installation Assignment Report
+
+## Student Information
+
+**Name:** ____________________
+**Roll Number:** ____________________
+**Course:** Database Management Systems
+**Date:** ____________________
+
+# Introduction
+
+The objective of this assignment was to install and configure a SQL database management system on a local machine. Database systems are essential for storing, managing, and retrieving data efficiently. In this assignment, MySQL Community Server was selected and installed successfully. The installation process included downloading the software, configuring the server, creating a database, and verifying that the database was functioning correctly.
+
+# SQL Version and Edition Installed
+
+* Database Management System: MySQL Community Server
+* Version: MySQL 8.0
+* Edition: Community Edition
+* Operating System: Windows 10/11
+
+The Community Edition was chosen because it is free, widely used, and suitable for learning database management concepts.
+
+# Installation Process
+
+## Step 1: Choosing the SQL Edition
+
+The MySQL Community Edition was selected for installation. This edition provides all the essential database management features required for educational and development purposes.
+
+## Step 2: Downloading the Installation Package
+
+The MySQL Installer was downloaded from the official MySQL website. The installer package included the MySQL Server, MySQL Workbench, and additional tools required for database management.
+
+## Step 3: Running the Installer
+
+The installer was executed, and the setup wizard guided the installation process. The default installation type was selected, and the required components were installed successfully.
+
+## Step 4: Configuring the Database Server
+
+During installation, the database server was configured with the following settings:
+
+* Server Name: localhost
+* Port Number: 3306
+* Authentication Method: Username and Password
+* Root Username: root
+* Password: ********
+
+The configuration completed successfully, and the MySQL service was started automatically.
+
+# Database Creation and Verification
+
+After installation, MySQL Workbench was opened and connected to the local database server. A new database named "company_db" was created using the following SQL command:
+
+CREATE DATABASE company_db;
+
+To verify that the database was created successfully, the following command was executed:
+
+SHOW DATABASES;
+
+The newly created database appeared in the list of available databases, confirming that the database server was functioning correctly.
+
+# Screenshots
+
+Insert the following screenshots in this section:
+
+1. MySQL Installer Download Page
+2. Installation Progress Window
+3. Server Configuration Settings
+4. Database Creation Command
+5. Database Verification Output
+
+(Add screenshots here)
+
+# Errors Encountered and Solutions
+
+During the installation process, a few minor issues were encountered.
+
+### Error 1: Connection Failure
+
+The server connection initially failed because the MySQL service was not running.
+
+**Solution:** The MySQL service was started from Windows Services, and the connection was established successfully.
+
+### Error 2: Incorrect Password
+
+An incorrect root password was entered while connecting to the server.
+
+**Solution:** The correct password was entered, and the connection was restored.
+
+These issues were resolved without affecting the overall installation process.
+
+# Conclusion
+
+The SQL database management system was successfully installed and configured on the local machine. A new database named "company_db" was created and verified successfully. This assignment provided practical experience in installing, configuring, and managing a database server. The knowledge gained from this exercise will be useful for future database development and administration tasks.
